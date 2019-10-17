@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skill-matrix-api", "skill-matrix-api\skill-matrix-api.csproj", "{344FAF87-FE41-401C-9E70-322F1F90530A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{344FAF87-FE41-401C-9E70-322F1F90530A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344FAF87-FE41-401C-9E70-322F1F90530A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344FAF87-FE41-401C-9E70-322F1F90530A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344FAF87-FE41-401C-9E70-322F1F90530A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABBB8FF1-F775-423F-A539-02649459FFA6}
+	EndGlobalSection
+EndGlobal
