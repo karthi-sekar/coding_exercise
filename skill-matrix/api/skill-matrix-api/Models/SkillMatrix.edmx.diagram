@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d4f99670f864c20ac3df5a92073f36e" Name="Diagram1">
+        <EntityTypeShape EntityType="SkillMatrixModel.Designation" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkillMatrixModel.Employee" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkillMatrixModel.EmployeeSkill" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkillMatrixModel.SkillCategory" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SkillMatrixModel.Skill" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="SkillMatrixModel.FK_Employees_Designations" ManuallyRouted="false" />
+        <AssociationConnector Association="SkillMatrixModel.FK_EmployeeSkills_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="SkillMatrixModel.FK_EmployeeSkills_Skills" ManuallyRouted="false" />
+        <AssociationConnector Association="SkillMatrixModel.FK_Skills_SkillCategories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
