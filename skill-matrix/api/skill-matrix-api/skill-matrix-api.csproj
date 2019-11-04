@@ -139,6 +139,7 @@
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -149,6 +150,7 @@
     <Compile Include="Models\Employee.cs">
       <DependentUpon>SkillMatrix.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\EmployeeModel.cs" />
     <Compile Include="Models\EmployeeSkill.cs">
       <DependentUpon>SkillMatrix.tt</DependentUpon>
     </Compile>
@@ -174,6 +176,7 @@
       <DependentUpon>SkillMatrix.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\EmployeeControllerProvider.cs" />
     <Compile Include="Repositories\SkillMatrixRepository.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -232,7 +235,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>59172</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:59172/</IISUrl>
+          <IISUrl>http://localhost:59172</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -18,6 +18,7 @@ namespace skill_matrix_api.Models
         public SkillMatrixEntities()
             : base("name=SkillMatrixEntities")
         {
+            this.Configuration.LazyLoadingEnabled = true;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
