@@ -150,7 +150,7 @@
     <Compile Include="Models\Employee.cs">
       <DependentUpon>SkillMatrix.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\EmployeeModel.cs" />
+    <Compile Include="ViewModel\EmployeeModel.cs" />
     <Compile Include="Models\EmployeeSkill.cs">
       <DependentUpon>SkillMatrix.tt</DependentUpon>
     </Compile>

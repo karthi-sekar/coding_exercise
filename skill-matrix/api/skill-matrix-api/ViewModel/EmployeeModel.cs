@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace skill_matrix_api.Models
+namespace skill_matrix_api.ViewModel
 {
-    public class EmployeeModel
+    public class EmployeeViewModel
     {
         public int Id { get; set; }
         public string EmployeeId { get; set; }
