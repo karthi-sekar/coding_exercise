@@ -290,7 +290,7 @@
   .sidebar {
       display: block;
       margin-top: 60px;
-      width: 250px;
+      width: 200px;
       background-color: #606060;
       height: 100%;
       position: fixed!important;
@@ -299,7 +299,7 @@
   }
 
   .app-content {
-    margin-left: 250px;
+    margin-left: 200px;
     display: block;
     padding-top: 60px;
   }

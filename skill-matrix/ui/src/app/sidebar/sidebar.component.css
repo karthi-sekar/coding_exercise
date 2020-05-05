@@ -1,0 +1,23 @@
+
+  ul.sidebar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.sidebar-list > li {
+    color: #D2D2D2;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 40px;
+    font-weight: 400;
+    user-select: none;
+    -moz-user-select: none;
+  }
+
+  ul.sidebar-list > li:hover {
+    font-weight: 500;
+    background-color: #404040;
+    cursor: pointer;
+  }
